@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+header nav #topbox{
+    background: red;
+    display: flex;
+    justify-content: space-between ;
+    width: ;
+}
+header nav #topbox #heading{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}

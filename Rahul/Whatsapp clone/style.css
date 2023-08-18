@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+header nav{
+    width: 350px;
+    background:#1B2C34;
+    margin: auto;
+
+}
+header nav #upperbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav #lowerbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#box{
+    background: red;
+    width: 400px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 20px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#persn{
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 100%;
+    padding-left: 10px;
+    height: 25px;
+    border: none;
+}
+#lock{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+width: 100%;
+}
+input{
+    width: 100%;
+}

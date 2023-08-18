@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: red;
+    width: 300px;
+    height:80px;
+    margin: auto;
+}
+header nav{
+    height: 100%;
+}
+header nav #upbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header #set1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90PX;
+}
+header nav ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 50px;
+    margin: 0 10px;
+    list-style: none;                                                                                                              
+}
+header nav ul div{
+    display: flex;
+    align-items: center;
+}
+header nav ul div h2{
+    width: 18px;
+    height: 18px;
+    background: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+
+

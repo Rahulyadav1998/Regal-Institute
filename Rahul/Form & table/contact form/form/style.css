@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    /* padding-bottom: 100px; */
+    margin-bottom: 100px;
+    background: red;
+}

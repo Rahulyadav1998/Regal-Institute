@@ -1,0 +1,78 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500;1,600;1,700;1,900&family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'REM', sans-serif;
+}
+body{
+    background: blueviolet;
+}
+header{
+    height: 80px;
+    background: #fff;
+}
+header nav{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav #rightbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    height: 100%;
+}
+header nav #rightbox ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    list-style: none;
+    font-weight: 300;
+}
+header nav #rightbox #logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+header nav #rightbox #logo img{
+    width: 60px;
+}
+
+header nav #rightbox #logo h3{
+    font-weight: 600;
+    font-size: 13px;
+}
+header nav #rightbox #logo h2{
+    font-weight: 900;
+}
+
+header nav #rightbox #logo span{
+    font-weight: 400;
+    font-size: 11px;
+    margin-right: 5px;
+}
+
+
+header nav #leftbox button{
+    background: red;
+    padding: 11px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+header nav #leftbox .fa-magnifying-glass{
+    font-size: 23px;
+}

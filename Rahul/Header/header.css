@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: red;
+    height: 70px;
+}
+header nav{
+    height: 100%;
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header nav img{
+    width: 60px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 550px;
+    list-style: none;
+}
+header nav ul li span{
+    margin-left: 10px;
+}
+header nav ul li span{
+    position: relative;
+}
+header nav ul li span::after{ 
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 5px;
+    bottom: -10px;
+    transform: translate(-50%);
+    left: 50%;
+    transition: all ease 0.3s;
+}
+
+header nav ul li span:hover::after{
+    background: rgb(0, 0, 0);
+    width: 130%;
+}

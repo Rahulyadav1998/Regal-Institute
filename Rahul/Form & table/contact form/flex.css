@@ -1,0 +1,27 @@
+#mainbox{
+    width: 100%;
+    background: red;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(37, 156, 26);
+}
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(68, 0, 255);
+}
+#box4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 170);
+}

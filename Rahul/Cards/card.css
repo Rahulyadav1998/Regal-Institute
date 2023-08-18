@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#manbox{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border:3px solid black;
+}
+body{
+    background: steelblue;
+}
+#manbox h1{
+    margin-top: 30PX;
+    text-transform: capitalize;
+}
+#manbox h2{
+    font-weight: 100;
+    margin-top: 7px;
+}
+#manbox p{
+    margin-top: 15px;
+}
+#logo{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
